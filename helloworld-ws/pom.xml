@@ -42,6 +42,8 @@
     </licenses>
 
     <properties>
+		<maven.compiler.target>13</maven.compiler.target>
+		<maven.compiler.source>13</maven.compiler.source>
         <!-- Remote Server URL -->
         <remote.server.url>http://localhost:8080/</remote.server.url>
     </properties>

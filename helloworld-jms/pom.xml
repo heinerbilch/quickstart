@@ -41,6 +41,11 @@
         </license>
     </licenses>
 
+	<properties>
+		<maven.compiler.target>13</maven.compiler.target>
+		<maven.compiler.source>13</maven.compiler.source>
+	</properties>
+
     <dependencies>
         <!-- The JMS Client BOM provides application server-compatible dependency management,
         used for building, testing or debugging JMS client applications. Import the BOM to the
